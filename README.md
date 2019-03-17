@@ -13,7 +13,7 @@ Previous: hi
 Current : hı
 ```
 
-The concept is similar to how you trust SSH key signatures the first time they are used. If the signature ever changes, SSH fails. With utofu you trust strings and save them in a single-file database. Attempting to save a new string which is confusable with one already in the database causes an error.
+The concept is similar to how you trust SSH key fingerprints the first time they are used. If the fingerprint ever changes, SSH fails. With utofu you trust strings and save them in a single-file database. Attempting to save a new string which is confusable with one already in the database causes an error.
 
 #### How does it work?
 
